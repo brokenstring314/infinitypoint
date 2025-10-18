@@ -1,0 +1,44 @@
+# -------------------------
+# Node.js 标准忽略
+# -------------------------
+# 依赖模块目录
+/node_modules
+
+# 日志文件
+npm-debug.log
+.npm/
+.yarn-integrity
+.yarn-cache
+
+# 操作系统临时文件
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Vite/VitePress 构建产物忽略
+# -------------------------
+
+# VitePress 默认的缓存目录
+/docs/.vitepress/cache
+
+# VitePress 构建生成的静态文件目录
+# 注意：VitePress 默认将静态文件输出到 docs/.vitepress/dist
+/docs/.vitepress/dist
+
+# 如果您将 Vercel 或 Netlify 配置文件放在项目根目录，请忽略其构建缓存
+/.vercel
+/.netlify
+
+# -------------------------
+# 编辑器/IDE 配置忽略
+# -------------------------
+# VSCode 
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# WebStorm / IDEA
+.idea
