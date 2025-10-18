@@ -1,0 +1,2 @@
+# infinitypoint-blog
+personal blog
