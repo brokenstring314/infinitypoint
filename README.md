@@ -1,2 +1,2 @@
-# infinitypoint-blog
-personal blog
+# infinitypoint
+personal site
