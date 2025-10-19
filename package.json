@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "busuanzi.pure.js": "^1.0.3",
     "vitepress": "2.0.0-alpha.12"
   },
   "scripts": {

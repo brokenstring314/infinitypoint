@@ -60,47 +60,47 @@ export default defineConfig({
       label: 'English',
       lang: 'en',
       link: '/en/',
-      
+
       themeConfig: {
-    // 英文站点的导航与侧边栏
-    nav: [
-        { text: 'Home', link: '/' },
-        { text: 'Examples', link: '/examples/markdown-examples' },
-        { text: 'Blogs', link: '/blogs/csharp-async-aop-trap' },
-        { text: 'Games', link: '/games/minesweeper' }
-    ],
-    sidebar: {
-        // Only display this sidebar when the URL starts with /examples/
-        '/examples/': [
-            {
-                text: 'Examples',
-                items: [
-                    { text: 'Markdown Examples', link: '/examples/markdown-examples' },
-                    { text: 'Runtime API Examples', link: '/examples/api-examples' }
-                ]
-            }
+        // 英文站点的导航与侧边栏
+        nav: [
+          { text: 'Home', link: '/en/' },
+          { text: 'Examples', link: '/en/examples/markdown-examples' },
+          { text: 'Blogs', link: '/en/blogs/csharp-async-aop-trap' },
+          { text: 'Games', link: '/en/games/minesweeper' }
         ],
-        // Only display this sidebar when the URL starts with /blogs/
-        '/blogs/': [
+        sidebar: {
+          // Only display this sidebar when the URL starts with /examples/
+          '/en/examples/': [
             {
-                text: 'Blogs',
-                items: [
-                    { text: 'C# Async & AOP Trap', link: '/blogs/csharp-async-aop-trap' }
-                ]
+              text: 'Examples',
+              items: [
+                { text: 'Markdown Examples', link: '/en/examples/markdown-examples' },
+                { text: 'Runtime API Examples', link: '/en/examples/api-examples' }
+              ]
             }
-        ],
-        // Only display this sidebar when the URL starts with /games/
-        '/games/': [
+          ],
+          // Only display this sidebar when the URL starts with /blogs/
+          '/en/blogs/': [
             {
-                text: 'Casual Games', // 休闲游戏
-                collapsed: false,
-                items: [
-                    { text: 'Minesweeper Game', link: '/games/minesweeper' }
-                ]
+              text: 'Blogs',
+              items: [
+                { text: 'C# Async & AOP Trap', link: '/en/blogs/csharp-async-aop-trap' }
+              ]
             }
-        ]
-    }
-}
+          ],
+          // Only display this sidebar when the URL starts with /games/
+          '/en/games/': [
+            {
+              text: 'Casual Games', // 休闲游戏
+              collapsed: false,
+              items: [
+                { text: 'Minesweeper Game', link: '/en/games/minesweeper' }
+              ]
+            }
+          ]
+        }
+      }
     }
   },
   themeConfig: {
@@ -108,6 +108,6 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/brokenstring314/infinitypoint-blog' },
     ]
   },
-
+  lastUpdated: true
 })
 

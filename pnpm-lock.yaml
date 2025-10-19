@@ -12,6 +12,9 @@ importers:
         specifier: ^3.5.22
         version: 3.5.22
     devDependencies:
+      busuanzi.pure.js:
+        specifier: ^1.0.3
+        version: 1.0.3
       vitepress:
         specifier: 2.0.0-alpha.12
         version: 2.0.0-alpha.12(postcss@8.5.6)
@@ -483,6 +486,9 @@ packages:
 
   birpc@2.6.1:
     resolution: {integrity: sha512-LPnFhlDpdSH6FJhJyn4M0kFO7vtQ5iPw24FnG0y21q09xC7e8+1LeR31S1MAIrDAHp4m7aas4bEkTDTvMAtebQ==}
+
+  busuanzi.pure.js@1.0.3:
+    resolution: {integrity: sha512-tPULdyx+8NNb9geZYDpktKmHAYx9f2LEOBaHyWCaM7iPEMIa/43KgYAUluuU7YG9UFSOFpj4dO7Nj2Vlu3V9Rg==}
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -1084,6 +1090,8 @@ snapshots:
       vue: 3.5.22
 
   birpc@2.6.1: {}
+
+  busuanzi.pure.js@1.0.3: {}
 
   ccount@2.0.1: {}
 
