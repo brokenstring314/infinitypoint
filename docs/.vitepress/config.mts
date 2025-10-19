@@ -108,6 +108,9 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/brokenstring314/infinitypoint-blog' },
     ]
   },
-  lastUpdated: true
+  lastUpdated: true,
+  markdown: {
+    math: true, // 官方推荐方式
+  }
 })
 
