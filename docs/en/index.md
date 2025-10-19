@@ -4,17 +4,17 @@ layout: home
 
 hero:
   name: "infinitypoint"
-  text: "无穷远点"
-  tagline: 欢迎！
+  text: "A personal site"
+  tagline: Welcome to my personal site!
   actions:
     - theme: brand
-      text: 立刻开玩！
-      link: /games/minesweeper
+      text: Markdown Examples
+      link: /markdown-examples
     - theme: alt
-      text: 学点知识
-      link: /blogs/csharp-async-aop-trap
+      text: API Examples
+      link: /api-examples
     - theme: comment
-      text: 留言板(待开发)
+      text: 留言板
       link: /comment
 
 features:
