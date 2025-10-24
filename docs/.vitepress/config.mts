@@ -7,6 +7,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/main.svg' }]
   ],
+
   locales: {
     // 根(locale key 可以是 `root` 或 '')，对应站点根路径 '/'
     root: {
@@ -28,7 +29,8 @@ export default defineConfig({
               text: '示例',
               items: [
                 { text: 'Markdown 示例', link: '/examples/markdown-examples' },
-                { text: 'Runtime API 示例', link: '/examples/api-examples' }
+                { text: 'Runtime API 示例', link: '/examples/api-examples' },
+                { text: 'frontmatter 示例', link: '/examples/frontmatter-examples' }
               ]
             }
           ],
@@ -104,6 +106,29 @@ export default defineConfig({
     }
   },
   themeConfig: {
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          zh: {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                resetButtonTitle: '清除查询条件',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换'
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/brokenstring314/infinitypoint-blog' },
     ]
